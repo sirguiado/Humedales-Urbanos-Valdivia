@@ -1,9 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    line-height: 1.4em;
-    color: #222;
+    font-size: 20px;
+    line-height: 2.5em;
+    color:#222;
     background: #efefef;
     font-family: sans-serif;
 }
@@ -189,7 +189,7 @@ footer{
     color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 40px;
     box-sizing: border-box;
 }
 
