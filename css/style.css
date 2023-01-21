@@ -4,7 +4,7 @@ body{
     font-size: 20px;
     line-height: 2.5em;
     color:#222;
-    background: #efefef;
+    background: #ffffff;
     font-family: sans-serif;
 }
 
@@ -84,7 +84,6 @@ ul{
 }
 
 Color selección botón
-
 .nav-item:hover{
     background: #d1dfdb7a;
     cursor: pointer;
