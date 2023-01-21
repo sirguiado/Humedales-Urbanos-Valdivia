@@ -306,7 +306,7 @@ Menú desplegable
     margin: 0;
     padding: 0;
   }
-  header1{
+  .header1{
     font-family: Helvetica;
     width: 1000px;
     margin: 0 auto;
@@ -320,7 +320,7 @@ Menú desplegable
     padding: 10px;
     display: block;
     text-decoration: none;
-    min-width: 100px;
+    min-width: 460px;
   }
   #menu li>a:hover{
     color: #000;
