@@ -67,6 +67,18 @@ nav{
     margin: auto;
 }
 
+.intro{
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+.instruccion{
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+
 ul{
     padding: 0;
     margin-top: 0;
