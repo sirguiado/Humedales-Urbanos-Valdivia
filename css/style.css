@@ -1,3 +1,44 @@
+Menú desplegable
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .header{
+    font-family: Helvetica;
+    width: 100%;
+    margin: 0 auto;
+  }
+  ul{
+    list-style: none;
+  }
+  #menu li>a{
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    min-width: 470px;
+  }
+  #menu li>a:hover{
+    width: 100%;
+    color: #000;
+    background-color: #eaeaea;
+  }
+  #menu>li{
+    width: 100%;
+    float: left;
+    text-align:center
+  }
+  #menu>li>ul{
+    width: 100%;
+    display: none;
+  }
+  #menu>li:hover>ul {
+    width: 100%;
+    display:block;
+  }
+
 body{
     margin: 0;
     padding: 0;
@@ -17,19 +58,19 @@ nav{
 }
 
 .logo{
-    width: 1200px;
+    width: 100%;
     display: block;
     margin: auto;
 }
 
 .intro{
-    width: 1200px;
+    width: 100%;
     display: block;
     margin: auto;
 }
 
 .instruccion{
-    width: 1200px;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -51,7 +92,7 @@ Color selección botón
 }
 
 .leyhumedales{
-    width: 1000px;
+    width: 100%;
     display: block;
     margin: auto;
 
@@ -66,7 +107,9 @@ footer{
     flex-wrap: wrap;
     padding: 40px;
     box-sizing: border-box;
+    
 }
+
 
 footer h3{
     margin: 40px auto;
@@ -85,39 +128,3 @@ footer p{
 .infografia{
     text-align: center;
 }
-
-Menú desplegable
-*{
-    margin: 0;
-    padding: 0;
-  }
-  .header{
-    font-family: Helvetica;
-    width: 1000px;
-    margin: 0 auto;
-  }
-  ul{
-    list-style: none;
-  }
-  #menu li>a{
-    background-color: #000000;
-    color: white;
-    padding: 5px;
-    display: block;
-    text-decoration: none;
-    min-width: 470px;
-  }
-  #menu li>a:hover{
-    color: #000;
-    background-color: #eaeaea;
-  }
-  #menu>li{
-    float: left;
-    text-align:center
-  }
-  #menu>li>ul{
-    display: none;
-  }
-  #menu>li:hover>ul {
-    display:block;
-  }
