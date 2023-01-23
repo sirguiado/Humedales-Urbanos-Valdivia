@@ -20,7 +20,7 @@ Menú desplegable
     padding: 3px;
     display: block;
     text-decoration: none;
-    min-width: 470px;
+    min-width: 350px;
 }
 
 #menu li>a:hover{
